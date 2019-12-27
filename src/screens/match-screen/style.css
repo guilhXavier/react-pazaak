@@ -1,0 +1,8 @@
+.match-screen__container {
+  height: 600px;
+  width: 800px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

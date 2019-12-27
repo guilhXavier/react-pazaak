@@ -1,0 +1,7 @@
+.hand__container {
+  height: 96px;
+  display: flex;
+}
+
+.hand__container::before {
+}
