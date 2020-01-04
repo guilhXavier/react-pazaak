@@ -1,7 +1,18 @@
 .hand__container {
   height: 96px;
   display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .hand__container::before {
+  content: '';
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }

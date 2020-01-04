@@ -64,8 +64,8 @@ export class Table extends React.Component {
     return (
       <React.Fragment>
         <div className='actions__container'>
-          <div className='actions__end-turn'>End Turn</div>
-          <div className='actions__stand'>Stand</div>
+          <div className='actions__button'>End Turn</div>
+          <div className='actions__button'>Stand</div>
         </div>
       </React.Fragment>
     );

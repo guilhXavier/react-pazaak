@@ -1,0 +1,25 @@
+.card__container {
+  height: 80px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.positive {
+  background-color: blue;
+}
+
+.negative {
+  background-color: red;
+}
+
+.card__value {
+  width: 48px;
+  height: 32px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
